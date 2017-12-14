@@ -28,7 +28,9 @@ article {
   margin-left: 5%;
   margin-right: 5%;
   padding: 20px;
-  /*position: relative;*/
+  position: relative;
+  /*Layers*/
+  /*z-index: -10;*/
   /*clear: removes blocks*/
 }
 
