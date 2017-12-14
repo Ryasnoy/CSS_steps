@@ -1,7 +1,50 @@
+/*Struct of style
+h1 - Selector
+All in {
+  its block of init styles
+  property: value
+}*/
+
+/*There are 3 ways for selector on tag */
+/*1. For all types of tag*/
 body {
   background-color: brown;
 }
 
 h3 {
   color: orange;
+}
+
+/*2. Select id. Once for one id*/
+#prg {
+  color: white;
+}
+
+/*3. Classes. Multiple*/
+.style {
+  opacity: 0.5;
+}
+/*For unique use for some tag use tag.nameClass*/
+p.style {
+  color: blue;
+}
+/*You can use one class for many implementation for other tags*/
+strong.style {
+  background-color: white;
+}
+
+/*For all tags that have a tag*/
+strong i {
+  color: green;
+}
+
+/*For all document*/
+* {
+  /*font-size: 20px;*/
+}
+
+/*Group tags*/
+p.exmpl, strong {
+  font-size: 30px;
+  font-weight: lighter;
 }
