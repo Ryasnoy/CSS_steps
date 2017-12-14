@@ -87,3 +87,16 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#textStyle {
+  font-size: 1.1em;
+  font-weight: bold;
+  font-family: sans-serif; /*if doesn`t exist font-family use defualt through ,sans-serif */
+  text-align: justify;
+  text-indent: 1.1em;
+  text-transform: capitalize;
+  word-spacing: 15px;
+  letter-spacing: 10px;
+  line-height: 120%; 
+  color: white;
+}
