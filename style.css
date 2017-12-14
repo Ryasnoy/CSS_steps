@@ -8,7 +8,7 @@ All in {
 /*There are 3 ways for selector on tag */
 /*1. For all types of tag*/
 body {
-  background-color: brown;
+  /*background-color: brown;*/
 }
 
 h3 {
@@ -69,4 +69,21 @@ p#test:first-line {
 
 .href:visited {
   color: green;
+}
+
+/*Background image*/
+
+html {
+  /*background: url('Assets/bg.jpg') no-repeat center center fixed height:100%;*/
+    height: 100%;
+    margin: 0;
+    background-image: url("Assets/bg.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
