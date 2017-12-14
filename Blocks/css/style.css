@@ -1,0 +1,27 @@
+
+h1 {
+  text-align: center;
+  color: #4079a3;
+}
+
+.testBlock {
+  border: 2px dashed black;
+  /*width: 50px;*/
+  height: 200px;
+  margin: 100px;
+  /*padding: 20px;*/
+  background-color: #1f7a64;
+}
+
+#logo {
+  margin-left: 50px;
+  height: 75px;
+  width: 250px;
+}
+
+#text {
+  color: white;
+  font-size: 1.1em;
+  display: table;
+  margin: 0 auto;
+}
